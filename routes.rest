@@ -1,0 +1,26 @@
+GET http://localhost:3000/profile
+
+###
+
+POST http://localhost:3000/profile/
+Content-Type: application/json
+
+{
+    "name":"Deepa K M",
+    "age":"25",
+    "place":"Cochin"
+}
+
+###
+GET http://localhost:3000/profile/623c2ed8d702c324ec431f13
+
+###
+DELETE http://localhost:3000/profile/623c2dfa0ba43529886c784a
+
+###
+PATCH http://localhost:3000/profile/623c2ed8d702c324ec431f13
+Content-Type: application/json
+
+{
+    "name":"Akhil Kumar"
+}
